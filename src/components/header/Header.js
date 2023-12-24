@@ -16,7 +16,7 @@ function Header() {
 
   useEffect(() => {
     dispatch(totalExpense());
-  }, []);
+  });
 
   function handleSearch(e) {
     dispatch(searchExpense(e.target.value));

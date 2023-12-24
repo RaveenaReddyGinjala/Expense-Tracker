@@ -20,7 +20,7 @@ function Card({ item }) {
       setTime(moment(item.createdAt).fromNow());
     }, 60 * 1000);
     return () => clearInterval(timer);
-  }, []);
+  });
 
   function handleEdit() {
     dispatch(showForm(true));

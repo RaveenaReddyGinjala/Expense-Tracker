@@ -17,7 +17,7 @@ function Expenses() {
       {filteredList.length ? (
         <>
           {filteredList.map((item) => (
-            <Card item={item} />
+            <Card item={item} key={item.createdAt} />
           ))}
         </>
       ) : searchTerm !== "" ? (

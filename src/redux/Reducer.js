@@ -23,7 +23,7 @@ export const reducer = (state = initialState, { type, payload }) => {
 
     case "DELETE_EXPENSE":
       const filteredlist = state.expenseList.filter(
-        (item) => item.createdAt != payload
+        (item) => item.createdAt !== payload
       );
 
       localStorage.setItem("expenselist", JSON.stringify(filteredlist));
@@ -50,6 +50,7 @@ export const reducer = (state = initialState, { type, payload }) => {
       let sum = 0;
       state.expenseList.map((item) => {
         sum = sum + item.amount;
+        return sum;
       });
 
       return { ...state, total: sum };

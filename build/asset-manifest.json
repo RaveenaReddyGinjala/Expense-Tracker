@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9857208b.css",
+    "main.js": "/static/js/main.4145b469.js",
+    "static/js/787.3e9030c3.chunk.js": "/static/js/787.3e9030c3.chunk.js",
+    "static/media/empty.png": "/static/media/empty.f575b5cbc3511ebaecd2.png",
+    "static/media/education.png": "/static/media/education.f21be75359167fdc6d35.png",
+    "static/media/healthcare.png": "/static/media/healthcare.d26b4326fc99ee87199b.png",
+    "static/media/food.png": "/static/media/food.7bf88c6f0b524da50efd.png",
+    "static/media/shopping.png": "/static/media/shopping.b248386d4113d20307fc.png",
+    "index.html": "/index.html",
+    "main.9857208b.css.map": "/static/css/main.9857208b.css.map",
+    "main.4145b469.js.map": "/static/js/main.4145b469.js.map",
+    "787.3e9030c3.chunk.js.map": "/static/js/787.3e9030c3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9857208b.css",
+    "static/js/main.4145b469.js"
+  ]
+}

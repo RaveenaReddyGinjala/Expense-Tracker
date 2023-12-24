@@ -1,0 +1,109 @@
+.form {
+    box-shadow: 20px 20px 60px #60adac, -20px -20px 60px #82ebe8;
+    padding: 24px;
+    margin-top: 20px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 60vh;
+    border-radius: 15px;
+}
+.form-item{
+    display: flex;
+    margin: 12px 0px;
+    width:70%;
+    padding: 4px;
+  border-radius: 6px;
+  background-color: white;
+  flex-direction: row;
+}
+
+.form-item label{
+    background-color: lightgrey;
+  padding: 2px 12px;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.form-item input{
+    
+    width:70%;
+    margin-left: 6px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+.category-container-parent {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  .category {
+    position: relative;
+    width: 40%;
+  }
+
+  .category-dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0px;
+    background-color: white;
+    border-radius: 6px;
+    padding: 4px;
+  }
+  .category-dropdown i {
+    display: flex;
+    align-items: center;
+  }
+  .category-container {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    flex-direction: column;
+    background: #ffffff;
+  }
+
+  .category-item {
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0px;
+    cursor: pointer;
+  }
+
+  .category-item label {
+    margin-left: 6px;
+    cursor: pointer;
+  }
+  .category-item img {
+    height: 32px;
+    margin-right: 20px;
+  }
+
+  .form-buttons {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .form-buttons div {
+    display: flex;
+    border: 1px solid black;
+    margin-left: 12px;
+    padding: 2px 8px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .form-buttons div label {
+    cursor: pointer;
+  }
+  
+  .form-buttons div i {
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+  }
+
+ 
+  
+  
